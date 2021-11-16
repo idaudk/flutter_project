@@ -1,4 +1,4 @@
-# flutter_course_app
+# flutter_app
 
 A new Flutter project.
 
