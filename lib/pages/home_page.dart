@@ -13,16 +13,15 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       drawerEnableOpenDragGesture: true,
       appBar: AppBar(
-        
         elevation: 0,
-        title: Text("Flutter App"),
+        title: const Text("Flutter App"),
       ),
       body: Center(
         child: Container(
-          child: Text("WElcome to the Flutter App"),
+          child: const Text("Welcome to the Flutter App"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
