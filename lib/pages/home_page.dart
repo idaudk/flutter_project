@@ -16,10 +16,8 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
         title: const Text("Flutter App"),
       ),
-      body: Center(
-        child: Container(
-          child: const Text("Welcome to the Flutter App"),
-        ),
+      body: const Center(
+        child: Text("Welcome to the Flutter App"),
       ),
       drawer: const Drawer(),
     );
